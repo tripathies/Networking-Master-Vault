@@ -4,6 +4,15 @@
 
 [← Back to master dashboard](../../README.md) · [Open reference architecture](../../NETWORK-REFERENCE-ARCHITECTURE.md)
 
+## Category architecture diagram
+
+![03-ip-addressing architecture](diagrams/category-architecture.svg)
+
+- [Open editable draw.io source](diagrams/category-architecture.drawio)
+- [View SVG preview](diagrams/category-architecture.svg)
+
+Use the editable diagram as the category-level reference. Extend it with environment-specific addressing, trust boundaries, routing, redundancy and operational ownership when building a real design.
+
 ## Learning checklist
 
 - [ ] [IPv4 Addressing](../../services/ipv4.md) — 32-bit addressing, private ranges and special-use addresses.
