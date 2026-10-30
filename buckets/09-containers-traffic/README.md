@@ -4,6 +4,15 @@
 
 [← Back to master dashboard](../../README.md) · [Open reference architecture](../../NETWORK-REFERENCE-ARCHITECTURE.md)
 
+## Category architecture diagram
+
+![09-containers-traffic architecture](diagrams/category-architecture.svg)
+
+- [Open editable draw.io source](diagrams/category-architecture.drawio)
+- [View SVG preview](diagrams/category-architecture.svg)
+
+Use the editable diagram as the category-level reference. Extend it with environment-specific addressing, trust boundaries, routing, redundancy and operational ownership when building a real design.
+
 ## Learning checklist
 
 - [ ] [Docker Networking](../../services/docker-networking.md) — Understand bridge, host, none, overlay and user-defined container networks.
