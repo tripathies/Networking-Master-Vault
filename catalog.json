@@ -1,0 +1,798 @@
+{
+  "name": "Networking Master Vault",
+  "version": "1.0.0",
+  "description": "Vendor-neutral networking learning catalogue for engineers and solution architects.",
+  "total_topics": 100,
+  "categories": [
+    {
+      "id": "01",
+      "name": "Core Networking Fundamentals",
+      "slug": "core-fundamentals",
+      "path": "buckets/01-core-fundamentals/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-01-osi-model",
+          "title": "OSI Model",
+          "slug": "osi-model",
+          "path": "services/osi-model.md",
+          "purpose": "A seven-layer reference model for understanding how network communication is divided into functions."
+        },
+        {
+          "id": "NET-01-tcp-ip-model",
+          "title": "TCP/IP Model",
+          "slug": "tcp-ip-model",
+          "path": "services/tcp-ip-model.md",
+          "purpose": "The practical protocol suite and layered model used by modern IP networks."
+        },
+        {
+          "id": "NET-01-ethernet",
+          "title": "Ethernet",
+          "slug": "ethernet",
+          "path": "services/ethernet.md",
+          "purpose": "The family of wired LAN technologies defining framing, addressing and link operation."
+        },
+        {
+          "id": "NET-01-wi-fi",
+          "title": "Wi-Fi",
+          "slug": "wi-fi",
+          "path": "services/wi-fi.md",
+          "purpose": "Wireless LAN technologies, radio bands, channels, roaming and security."
+        },
+        {
+          "id": "NET-01-network-types",
+          "title": "Network Types: LAN, WAN, MAN and PAN",
+          "slug": "network-types",
+          "path": "services/network-types.md",
+          "purpose": "Classifies networks by geographic scope, ownership and connectivity."
+        },
+        {
+          "id": "NET-01-network-topologies",
+          "title": "Network Topologies",
+          "slug": "network-topologies",
+          "path": "services/network-topologies.md",
+          "purpose": "Physical and logical layouts such as star, mesh, spine-leaf and hybrid."
+        },
+        {
+          "id": "NET-01-encapsulation",
+          "title": "Encapsulation and Decapsulation",
+          "slug": "encapsulation",
+          "path": "services/encapsulation.md",
+          "purpose": "How application data is wrapped into transport segments, packets, frames and bits."
+        },
+        {
+          "id": "NET-01-mac-addressing",
+          "title": "MAC Addressing",
+          "slug": "mac-addressing",
+          "path": "services/mac-addressing.md",
+          "purpose": "Layer 2 hardware addressing used for local-link frame delivery."
+        },
+        {
+          "id": "NET-01-network-interfaces",
+          "title": "Network Interface Cards",
+          "slug": "network-interfaces",
+          "path": "services/network-interfaces.md",
+          "purpose": "Physical and virtual interfaces that connect hosts to networks."
+        },
+        {
+          "id": "NET-01-bandwidth-latency-throughput",
+          "title": "Bandwidth, Latency, Throughput and Jitter",
+          "slug": "bandwidth-latency-throughput",
+          "path": "services/bandwidth-latency-throughput.md",
+          "purpose": "The core measures used to describe network capacity and user experience."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Network Devices and Infrastructure",
+      "slug": "network-devices",
+      "path": "buckets/02-network-devices/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-02-hubs-repeaters-bridges",
+          "title": "Hubs, Repeaters and Bridges",
+          "slug": "hubs-repeaters-bridges",
+          "path": "services/hubs-repeaters-bridges.md",
+          "purpose": "Legacy Layer 1 and Layer 2 devices and the roles they perform."
+        },
+        {
+          "id": "NET-02-switches",
+          "title": "Ethernet Switches",
+          "slug": "switches",
+          "path": "services/switches.md",
+          "purpose": "Layer 2 forwarding using MAC learning, forwarding tables and VLAN context."
+        },
+        {
+          "id": "NET-02-routers",
+          "title": "Routers",
+          "slug": "routers",
+          "path": "services/routers.md",
+          "purpose": "Layer 3 forwarding between IP networks using routing tables."
+        },
+        {
+          "id": "NET-02-wireless-access-points",
+          "title": "Wireless Access Points",
+          "slug": "wireless-access-points",
+          "path": "services/wireless-access-points.md",
+          "purpose": "Provide 802.11 connectivity and bridge wireless clients to wired networks."
+        },
+        {
+          "id": "NET-02-modems-ont",
+          "title": "Modems and Optical Network Terminals",
+          "slug": "modems-ont",
+          "path": "services/modems-ont.md",
+          "purpose": "Terminate ISP access technologies such as cable, DSL and fiber."
+        },
+        {
+          "id": "NET-02-firewall-appliances",
+          "title": "Firewall Appliances",
+          "slug": "firewall-appliances",
+          "path": "services/firewall-appliances.md",
+          "purpose": "Enforce traffic policy between network zones and trust boundaries."
+        },
+        {
+          "id": "NET-02-load-balancer-appliances",
+          "title": "Load Balancer Appliances",
+          "slug": "load-balancer-appliances",
+          "path": "services/load-balancer-appliances.md",
+          "purpose": "Distribute application connections across healthy backend targets."
+        },
+        {
+          "id": "NET-02-network-cabling",
+          "title": "Copper and Fiber Cabling",
+          "slug": "network-cabling",
+          "path": "services/network-cabling.md",
+          "purpose": "Ethernet copper, fiber types, connectors, distance and deployment considerations."
+        },
+        {
+          "id": "NET-02-transceivers",
+          "title": "Optical Transceivers",
+          "slug": "transceivers",
+          "path": "services/transceivers.md",
+          "purpose": "Convert electrical and optical signals for fiber links."
+        },
+        {
+          "id": "NET-02-network-racks-power",
+          "title": "Racks, Power and Physical Infrastructure",
+          "slug": "network-racks-power",
+          "path": "services/network-racks-power.md",
+          "purpose": "Physical design considerations for network rooms, racks, UPS and environmental controls."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "IP Addressing and Subnetting",
+      "slug": "ip-addressing",
+      "path": "buckets/03-ip-addressing/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-03-ipv4",
+          "title": "IPv4 Addressing",
+          "slug": "ipv4",
+          "path": "services/ipv4.md",
+          "purpose": "32-bit addressing, private ranges and special-use addresses."
+        },
+        {
+          "id": "NET-03-ipv6",
+          "title": "IPv6 Addressing",
+          "slug": "ipv6",
+          "path": "services/ipv6.md",
+          "purpose": "128-bit addressing, global unicast, link-local, multicast and address planning."
+        },
+        {
+          "id": "NET-03-subnet-masks",
+          "title": "Subnet Masks and Network Boundaries",
+          "slug": "subnet-masks",
+          "path": "services/subnet-masks.md",
+          "purpose": "Identify network and host portions of an IPv4 address."
+        },
+        {
+          "id": "NET-03-cidr",
+          "title": "CIDR and Prefix Lengths",
+          "slug": "cidr",
+          "path": "services/cidr.md",
+          "purpose": "Represent network ranges efficiently with prefix notation."
+        },
+        {
+          "id": "NET-03-subnetting",
+          "title": "IPv4 Subnetting",
+          "slug": "subnetting",
+          "path": "services/subnetting.md",
+          "purpose": "Calculate network, broadcast, usable host range and subnet capacity."
+        },
+        {
+          "id": "NET-03-vlsm",
+          "title": "VLSM and FLSM",
+          "slug": "vlsm",
+          "path": "services/vlsm.md",
+          "purpose": "Allocate variable or fixed-size subnets to match address requirements."
+        },
+        {
+          "id": "NET-03-ip-address-planning",
+          "title": "Enterprise IP Address Planning",
+          "slug": "ip-address-planning",
+          "path": "services/ip-address-planning.md",
+          "purpose": "Design scalable, summarizable address plans across sites, environments and tenants."
+        },
+        {
+          "id": "NET-03-public-private-ip",
+          "title": "Public and Private IP Addressing",
+          "slug": "public-private-ip",
+          "path": "services/public-private-ip.md",
+          "purpose": "Understand routability, private ranges and address translation."
+        },
+        {
+          "id": "NET-03-static-dynamic-ip",
+          "title": "Static and Dynamic Address Assignment",
+          "slug": "static-dynamic-ip",
+          "path": "services/static-dynamic-ip.md",
+          "purpose": "Choose manual, reservation or dynamically leased host addressing."
+        },
+        {
+          "id": "NET-03-ipam",
+          "title": "IP Address Management (IPAM)",
+          "slug": "ipam",
+          "path": "services/ipam.md",
+          "purpose": "Track address allocation, ownership, utilization, DNS and DHCP relationships."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "name": "Switching and Layer 2",
+      "slug": "switching-layer2",
+      "path": "buckets/04-switching-layer2/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-04-arp-neighbor-discovery",
+          "title": "ARP and IPv6 Neighbor Discovery",
+          "slug": "arp-neighbor-discovery",
+          "path": "services/arp-neighbor-discovery.md",
+          "purpose": "Resolve network-layer addresses to local-link next hops."
+        },
+        {
+          "id": "NET-04-vlans",
+          "title": "VLANs",
+          "slug": "vlans",
+          "path": "services/vlans.md",
+          "purpose": "Create logical Layer 2 broadcast domains on shared switching infrastructure."
+        },
+        {
+          "id": "NET-04-access-trunk-ports",
+          "title": "Access Ports and Trunk Ports",
+          "slug": "access-trunk-ports",
+          "path": "services/access-trunk-ports.md",
+          "purpose": "Carry untagged endpoint traffic or multiple VLANs across links."
+        },
+        {
+          "id": "NET-04-dot1q",
+          "title": "IEEE 802.1Q VLAN Tagging",
+          "slug": "dot1q",
+          "path": "services/dot1q.md",
+          "purpose": "Identify VLAN membership on Ethernet trunk links."
+        },
+        {
+          "id": "NET-04-inter-vlan-routing",
+          "title": "Inter-VLAN Routing",
+          "slug": "inter-vlan-routing",
+          "path": "services/inter-vlan-routing.md",
+          "purpose": "Enable communication between VLANs using Layer 3 routing."
+        },
+        {
+          "id": "NET-04-stp-rstp",
+          "title": "STP and RSTP",
+          "slug": "stp-rstp",
+          "path": "services/stp-rstp.md",
+          "purpose": "Prevent Layer 2 loops while preserving redundant paths."
+        },
+        {
+          "id": "NET-04-etherchannel-lacp",
+          "title": "EtherChannel and LACP",
+          "slug": "etherchannel-lacp",
+          "path": "services/etherchannel-lacp.md",
+          "purpose": "Bundle physical links into a logical link for capacity and resilience."
+        },
+        {
+          "id": "NET-04-broadcast-domains",
+          "title": "Broadcast and Collision Domains",
+          "slug": "broadcast-domains",
+          "path": "services/broadcast-domains.md",
+          "purpose": "Understand how switching, hubs and routers define traffic boundaries."
+        },
+        {
+          "id": "NET-04-port-security",
+          "title": "Switch Port Security",
+          "slug": "port-security",
+          "path": "services/port-security.md",
+          "purpose": "Limit and control endpoint MAC learning on access ports."
+        },
+        {
+          "id": "NET-04-lldp-cdp",
+          "title": "LLDP and CDP",
+          "slug": "lldp-cdp",
+          "path": "services/lldp-cdp.md",
+          "purpose": "Discover directly connected network devices and interface details."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "Routing and Layer 3",
+      "slug": "routing-layer3",
+      "path": "buckets/05-routing-layer3/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-05-routing-tables",
+          "title": "Routing Tables and Longest Prefix Match",
+          "slug": "routing-tables",
+          "path": "services/routing-tables.md",
+          "purpose": "Select next hops using destination prefixes and route preference."
+        },
+        {
+          "id": "NET-05-static-routing",
+          "title": "Static Routing",
+          "slug": "static-routing",
+          "path": "services/static-routing.md",
+          "purpose": "Configure explicit routes for predictable and small-scale network paths."
+        },
+        {
+          "id": "NET-05-default-routing",
+          "title": "Default Routes",
+          "slug": "default-routing",
+          "path": "services/default-routing.md",
+          "purpose": "Forward traffic when no more-specific route matches."
+        },
+        {
+          "id": "NET-05-dynamic-routing",
+          "title": "Dynamic Routing Concepts",
+          "slug": "dynamic-routing",
+          "path": "services/dynamic-routing.md",
+          "purpose": "Exchange reachability information and adapt paths when topology changes."
+        },
+        {
+          "id": "NET-05-ospf",
+          "title": "OSPF",
+          "slug": "ospf",
+          "path": "services/ospf.md",
+          "purpose": "Link-state interior gateway protocol using areas and shortest-path calculation."
+        },
+        {
+          "id": "NET-05-bgp",
+          "title": "BGP",
+          "slug": "bgp",
+          "path": "services/bgp.md",
+          "purpose": "Policy-driven path-vector routing between autonomous systems and within large networks."
+        },
+        {
+          "id": "NET-05-eigrp",
+          "title": "EIGRP",
+          "slug": "eigrp",
+          "path": "services/eigrp.md",
+          "purpose": "Advanced distance-vector routing protocol and its operational concepts."
+        },
+        {
+          "id": "NET-05-ecmp",
+          "title": "Equal-Cost Multi-Path Routing",
+          "slug": "ecmp",
+          "path": "services/ecmp.md",
+          "purpose": "Use multiple equal-cost next hops for load sharing and resilience."
+        },
+        {
+          "id": "NET-05-route-redistribution",
+          "title": "Route Redistribution",
+          "slug": "route-redistribution",
+          "path": "services/route-redistribution.md",
+          "purpose": "Exchange routes between routing protocols with controls against loops."
+        },
+        {
+          "id": "NET-05-vrf-route-summarization",
+          "title": "VRF and Route Summarization",
+          "slug": "vrf-route-summarization",
+          "path": "services/vrf-route-summarization.md",
+          "purpose": "Separate routing tables and aggregate prefixes for scalable design."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "name": "Transport Protocols and Network Services",
+      "slug": "protocols-services",
+      "path": "buckets/06-protocols-services/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-06-tcp",
+          "title": "TCP",
+          "slug": "tcp",
+          "path": "services/tcp.md",
+          "purpose": "Reliable, ordered, connection-oriented transport with flow and congestion control."
+        },
+        {
+          "id": "NET-06-udp",
+          "title": "UDP",
+          "slug": "udp",
+          "path": "services/udp.md",
+          "purpose": "Connectionless transport with low overhead for latency-sensitive and query-response traffic."
+        },
+        {
+          "id": "NET-06-icmp",
+          "title": "ICMP and ICMPv6",
+          "slug": "icmp",
+          "path": "services/icmp.md",
+          "purpose": "Network control and error reporting used by diagnostics and path MTU discovery."
+        },
+        {
+          "id": "NET-06-ping-traceroute",
+          "title": "Ping and Traceroute",
+          "slug": "ping-traceroute",
+          "path": "services/ping-traceroute.md",
+          "purpose": "Test reachability, round-trip time and the path packets take."
+        },
+        {
+          "id": "NET-06-dhcp",
+          "title": "DHCP",
+          "slug": "dhcp",
+          "path": "services/dhcp.md",
+          "purpose": "Automatically lease IP configuration to clients using discover, offer, request and acknowledge."
+        },
+        {
+          "id": "NET-06-dns",
+          "title": "DNS",
+          "slug": "dns",
+          "path": "services/dns.md",
+          "purpose": "Resolve names to records and support service discovery and traffic steering."
+        },
+        {
+          "id": "NET-06-http-https",
+          "title": "HTTP and HTTPS",
+          "slug": "http-https",
+          "path": "services/http-https.md",
+          "purpose": "Application-layer web request/response and encrypted transport patterns."
+        },
+        {
+          "id": "NET-06-tls-certificates",
+          "title": "TLS, Certificates and PKI",
+          "slug": "tls-certificates",
+          "path": "services/tls-certificates.md",
+          "purpose": "Authenticate endpoints and protect data in transit using cryptographic sessions."
+        },
+        {
+          "id": "NET-06-ports-protocols",
+          "title": "TCP and UDP Ports",
+          "slug": "ports-protocols",
+          "path": "services/ports-protocols.md",
+          "purpose": "Identify application endpoints and common service port assignments."
+        },
+        {
+          "id": "NET-06-ntp-snmp-syslog-ssh",
+          "title": "NTP, SNMP, Syslog and SSH",
+          "slug": "ntp-snmp-syslog-ssh",
+          "path": "services/ntp-snmp-syslog-ssh.md",
+          "purpose": "Core time, telemetry, event logging and secure administration services."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "name": "Network Security",
+      "slug": "network-security",
+      "path": "buckets/07-network-security/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-07-security-zones-segmentation",
+          "title": "Security Zones and Segmentation",
+          "slug": "security-zones-segmentation",
+          "path": "services/security-zones-segmentation.md",
+          "purpose": "Separate workloads by trust level, function and required communication."
+        },
+        {
+          "id": "NET-07-stateful-stateless-firewalls",
+          "title": "Stateful and Stateless Firewalls",
+          "slug": "stateful-stateless-firewalls",
+          "path": "services/stateful-stateless-firewalls.md",
+          "purpose": "Compare connection-aware inspection with packet-rule filtering."
+        },
+        {
+          "id": "NET-07-network-acls",
+          "title": "Network ACLs",
+          "slug": "network-acls",
+          "path": "services/network-acls.md",
+          "purpose": "Apply ordered allow/deny rules at interfaces, subnets or network boundaries."
+        },
+        {
+          "id": "NET-07-nat-pat",
+          "title": "NAT and PAT",
+          "slug": "nat-pat",
+          "path": "services/nat-pat.md",
+          "purpose": "Translate addresses and ports between private and external network domains."
+        },
+        {
+          "id": "NET-07-site-to-site-vpn",
+          "title": "Site-to-Site VPN",
+          "slug": "site-to-site-vpn",
+          "path": "services/site-to-site-vpn.md",
+          "purpose": "Securely connect networks over untrusted transport using IPsec or managed VPN."
+        },
+        {
+          "id": "NET-07-remote-access-vpn",
+          "title": "Remote-Access VPN",
+          "slug": "remote-access-vpn",
+          "path": "services/remote-access-vpn.md",
+          "purpose": "Provide authenticated user or device access to private resources."
+        },
+        {
+          "id": "NET-07-ipsec",
+          "title": "IPsec Architecture",
+          "slug": "ipsec",
+          "path": "services/ipsec.md",
+          "purpose": "Protect IP traffic using security associations, encryption and integrity."
+        },
+        {
+          "id": "NET-07-ids-ips",
+          "title": "IDS and IPS",
+          "slug": "ids-ips",
+          "path": "services/ids-ips.md",
+          "purpose": "Detect or prevent suspicious network activity through signatures and behavior."
+        },
+        {
+          "id": "NET-07-zero-trust-network-access",
+          "title": "Zero Trust and ZTNA",
+          "slug": "zero-trust-network-access",
+          "path": "services/zero-trust-network-access.md",
+          "purpose": "Grant access based on identity, device posture, context and least privilege."
+        },
+        {
+          "id": "NET-07-ddos-protection",
+          "title": "DDoS Protection",
+          "slug": "ddos-protection",
+          "path": "services/ddos-protection.md",
+          "purpose": "Absorb, filter and mitigate volumetric and application-layer attacks."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "name": "Cloud and Hybrid Networking",
+      "slug": "cloud-hybrid",
+      "path": "buckets/08-cloud-hybrid/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-08-cloud-networking-fundamentals",
+          "title": "Cloud Networking Fundamentals",
+          "slug": "cloud-networking-fundamentals",
+          "path": "services/cloud-networking-fundamentals.md",
+          "purpose": "Map virtual networks, software-defined networking and shared responsibility concepts."
+        },
+        {
+          "id": "NET-08-aws-vpc",
+          "title": "AWS VPC",
+          "slug": "aws-vpc",
+          "path": "services/aws-vpc.md",
+          "purpose": "AWS virtual networking including subnets, route tables, gateways and endpoints."
+        },
+        {
+          "id": "NET-08-azure-vnet",
+          "title": "Azure Virtual Network",
+          "slug": "azure-vnet",
+          "path": "services/azure-vnet.md",
+          "purpose": "Azure private network boundary, subnets, peering, routing and connectivity."
+        },
+        {
+          "id": "NET-08-gcp-vpc",
+          "title": "Google Cloud VPC",
+          "slug": "gcp-vpc",
+          "path": "services/gcp-vpc.md",
+          "purpose": "Global VPC networks, regional subnets, routes and firewall policies."
+        },
+        {
+          "id": "NET-08-cloud-subnets-routes",
+          "title": "Cloud Subnets and Route Tables",
+          "slug": "cloud-subnets-routes",
+          "path": "services/cloud-subnets-routes.md",
+          "purpose": "Plan address ranges and control next-hop selection in cloud networks."
+        },
+        {
+          "id": "NET-08-cloud-nat-gateways",
+          "title": "Internet and NAT Gateways",
+          "slug": "cloud-nat-gateways",
+          "path": "services/cloud-nat-gateways.md",
+          "purpose": "Provide controlled ingress/egress paths and outbound address translation."
+        },
+        {
+          "id": "NET-08-vpc-peering",
+          "title": "VPC/VNet Peering",
+          "slug": "vpc-peering",
+          "path": "services/vpc-peering.md",
+          "purpose": "Connect virtual networks privately and understand non-transitive routing."
+        },
+        {
+          "id": "NET-08-transit-hubs",
+          "title": "Transit Gateways and Virtual WAN",
+          "slug": "transit-hubs",
+          "path": "services/transit-hubs.md",
+          "purpose": "Build hub-and-spoke connectivity and centralized network transit."
+        },
+        {
+          "id": "NET-08-cloud-private-connectivity",
+          "title": "Private Endpoints and Private Service Connectivity",
+          "slug": "cloud-private-connectivity",
+          "path": "services/cloud-private-connectivity.md",
+          "purpose": "Reach platform services privately without exposing traffic to public internet."
+        },
+        {
+          "id": "NET-08-hybrid-dedicated-connectivity",
+          "title": "Hybrid VPN and Dedicated Connectivity",
+          "slug": "hybrid-dedicated-connectivity",
+          "path": "services/hybrid-dedicated-connectivity.md",
+          "purpose": "Design site-to-cloud links using VPN, Direct Connect, ExpressRoute and Interconnect."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "name": "Containers and Traffic Distribution",
+      "slug": "containers-traffic",
+      "path": "buckets/09-containers-traffic/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-09-docker-networking",
+          "title": "Docker Networking",
+          "slug": "docker-networking",
+          "path": "services/docker-networking.md",
+          "purpose": "Understand bridge, host, none, overlay and user-defined container networks."
+        },
+        {
+          "id": "NET-09-kubernetes-networking",
+          "title": "Kubernetes Networking Model",
+          "slug": "kubernetes-networking",
+          "path": "services/kubernetes-networking.md",
+          "purpose": "Understand pod addressability, node networking and cluster network requirements."
+        },
+        {
+          "id": "NET-09-kubernetes-cni",
+          "title": "Kubernetes CNI Plugins",
+          "slug": "kubernetes-cni",
+          "path": "services/kubernetes-cni.md",
+          "purpose": "Implement pod networking, IPAM and network policy capabilities."
+        },
+        {
+          "id": "NET-09-kubernetes-services",
+          "title": "Kubernetes Services",
+          "slug": "kubernetes-services",
+          "path": "services/kubernetes-services.md",
+          "purpose": "Expose stable service endpoints using ClusterIP, NodePort and LoadBalancer."
+        },
+        {
+          "id": "NET-09-ingress-gateway-api",
+          "title": "Ingress and Gateway API",
+          "slug": "ingress-gateway-api",
+          "path": "services/ingress-gateway-api.md",
+          "purpose": "Route external HTTP and other supported traffic into cluster workloads."
+        },
+        {
+          "id": "NET-09-coredns-service-discovery",
+          "title": "CoreDNS and Service Discovery",
+          "slug": "coredns-service-discovery",
+          "path": "services/coredns-service-discovery.md",
+          "purpose": "Resolve services and workloads through cluster DNS."
+        },
+        {
+          "id": "NET-09-service-mesh",
+          "title": "Service Mesh",
+          "slug": "service-mesh",
+          "path": "services/service-mesh.md",
+          "purpose": "Provide service-to-service identity, policy, telemetry and traffic management."
+        },
+        {
+          "id": "NET-09-load-balancing-algorithms",
+          "title": "Load Balancing Algorithms",
+          "slug": "load-balancing-algorithms",
+          "path": "services/load-balancing-algorithms.md",
+          "purpose": "Compare round robin, least connections, hashing and locality-aware distribution."
+        },
+        {
+          "id": "NET-09-cdn-edge-networking",
+          "title": "CDN and Edge Networking",
+          "slug": "cdn-edge-networking",
+          "path": "services/cdn-edge-networking.md",
+          "purpose": "Cache and deliver content near users while reducing origin load and latency."
+        },
+        {
+          "id": "NET-09-global-traffic-management",
+          "title": "Global Traffic Management",
+          "slug": "global-traffic-management",
+          "path": "services/global-traffic-management.md",
+          "purpose": "Steer users across regions using health, latency, geography and policy."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Network Operations and Architecture",
+      "slug": "operations-architecture",
+      "path": "buckets/10-operations-architecture/README.md",
+      "topic_count": 10,
+      "topics": [
+        {
+          "id": "NET-10-network-monitoring",
+          "title": "Network Monitoring and Observability",
+          "slug": "network-monitoring",
+          "path": "services/network-monitoring.md",
+          "purpose": "Collect availability, interface, flow, path and experience telemetry."
+        },
+        {
+          "id": "NET-10-wireshark",
+          "title": "Wireshark",
+          "slug": "wireshark",
+          "path": "services/wireshark.md",
+          "purpose": "Inspect packet captures to diagnose protocol behavior and faults."
+        },
+        {
+          "id": "NET-10-tcpdump",
+          "title": "tcpdump",
+          "slug": "tcpdump",
+          "path": "services/tcpdump.md",
+          "purpose": "Capture and filter packets from Linux and network interfaces."
+        },
+        {
+          "id": "NET-10-netflow-sflow",
+          "title": "NetFlow, IPFIX and sFlow",
+          "slug": "netflow-sflow",
+          "path": "services/netflow-sflow.md",
+          "purpose": "Analyze traffic conversations, volume, sources and destinations."
+        },
+        {
+          "id": "NET-10-network-automation",
+          "title": "Network Automation with Ansible and APIs",
+          "slug": "network-automation",
+          "path": "services/network-automation.md",
+          "purpose": "Automate repeatable configuration, validation and operational workflows."
+        },
+        {
+          "id": "NET-10-infrastructure-as-code-networking",
+          "title": "Network Infrastructure as Code",
+          "slug": "infrastructure-as-code-networking",
+          "path": "services/infrastructure-as-code-networking.md",
+          "purpose": "Version and deploy network resources using Terraform and provider-native IaC."
+        },
+        {
+          "id": "NET-10-network-troubleshooting",
+          "title": "Network Troubleshooting Methodology",
+          "slug": "network-troubleshooting",
+          "path": "services/network-troubleshooting.md",
+          "purpose": "Isolate faults systematically from physical layer through application."
+        },
+        {
+          "id": "NET-10-mtu-mss-fragmentation",
+          "title": "MTU, MSS and Fragmentation",
+          "slug": "mtu-mss-fragmentation",
+          "path": "services/mtu-mss-fragmentation.md",
+          "purpose": "Understand packet sizing, path MTU discovery and fragmentation symptoms."
+        },
+        {
+          "id": "NET-10-high-availability-failover",
+          "title": "Network High Availability and Failover",
+          "slug": "high-availability-failover",
+          "path": "services/high-availability-failover.md",
+          "purpose": "Design resilient paths, devices and services with tested recovery behavior."
+        },
+        {
+          "id": "NET-10-enterprise-network-design",
+          "title": "Enterprise Network Design Patterns",
+          "slug": "enterprise-network-design",
+          "path": "services/enterprise-network-design.md",
+          "purpose": "Apply campus, data center, WAN, hub-spoke, spine-leaf and multi-region patterns."
+        }
+      ]
+    }
+  ]
+}
