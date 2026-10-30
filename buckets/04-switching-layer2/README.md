@@ -4,6 +4,15 @@
 
 [← Back to master dashboard](../../README.md) · [Open reference architecture](../../NETWORK-REFERENCE-ARCHITECTURE.md)
 
+## Category architecture diagram
+
+![04-switching-layer2 architecture](diagrams/category-architecture.svg)
+
+- [Open editable draw.io source](diagrams/category-architecture.drawio)
+- [View SVG preview](diagrams/category-architecture.svg)
+
+Use the editable diagram as the category-level reference. Extend it with environment-specific addressing, trust boundaries, routing, redundancy and operational ownership when building a real design.
+
 ## Learning checklist
 
 - [ ] [ARP and IPv6 Neighbor Discovery](../../services/arp-neighbor-discovery.md) — Resolve network-layer addresses to local-link next hops.
