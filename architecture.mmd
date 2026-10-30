@@ -1,0 +1,14 @@
+flowchart TB
+ U[Users and endpoints] --> CAMPUS[Campus and branch access]
+ CAMPUS --> CORE[Distribution and core routing]
+ CORE --> EDGE[WAN and security edge]
+ EDGE --> INTERNET[Internet and SaaS]
+ EDGE --> TRANSIT[Hybrid cloud transit]
+ TRANSIT --> AWS[AWS VPCs]
+ TRANSIT --> AZURE[Azure VNets]
+ TRANSIT --> GCP[GCP VPC networks]
+ CORE --> DC[Data center fabric]
+ DC --> APP[Application and data tiers]
+ SEC[Identity, segmentation and monitoring] -. policy .-> CORE
+ SEC -. policy .-> EDGE
+ SEC -. policy .-> TRANSIT
