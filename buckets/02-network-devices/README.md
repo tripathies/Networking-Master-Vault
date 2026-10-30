@@ -4,6 +4,15 @@
 
 [← Back to master dashboard](../../README.md) · [Open reference architecture](../../NETWORK-REFERENCE-ARCHITECTURE.md)
 
+## Category architecture diagram
+
+![02-network-devices architecture](diagrams/category-architecture.svg)
+
+- [Open editable draw.io source](diagrams/category-architecture.drawio)
+- [View SVG preview](diagrams/category-architecture.svg)
+
+Use the editable diagram as the category-level reference. Extend it with environment-specific addressing, trust boundaries, routing, redundancy and operational ownership when building a real design.
+
 ## Learning checklist
 
 - [ ] [Hubs, Repeaters and Bridges](../../services/hubs-repeaters-bridges.md) — Legacy Layer 1 and Layer 2 devices and the roles they perform.
