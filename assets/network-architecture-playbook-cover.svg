@@ -1,45 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-<title id="title">Network Architecture Playbook</title><desc id="desc">A detailed enterprise network reference architecture showing users, edge security, campus, data centre, cloud, WAN, segmentation, routing, observability and zero trust controls.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000" role="img" aria-labelledby="title desc">
+<title id="title">Network Architecture Playbook — Fundamentals, Devices and Enterprise Network Design</title>
+<desc id="desc">A detailed vendor-neutral network architecture illustration covering OSI and TCP/IP, Ethernet and Wi-Fi, MAC addressing and encapsulation, hubs, bridges, switches, routers, wireless access points, modems and optical network terminals, firewalls, load balancers, NICs, copper and fibre cabling, optical transceivers, racks and power, campus LAN, branch WAN, data centre, cloud, segmentation, routing, network services and operations.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".55" stop-color="#071f3b"/><stop offset="1" stop-color="#030b19"/></linearGradient>
- <linearGradient id="cyan" x2="1" y2="1"><stop stop-color="#39e7ff"/><stop offset="1" stop-color="#0878d1"/></linearGradient>
- <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#12395b" stop-opacity=".94"/><stop offset="1" stop-color="#07182d" stop-opacity=".96"/></linearGradient>
- <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#2d8db5" stroke-opacity=".17" stroke-width="1"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#041326"/><stop offset=".52" stop-color="#092744"/><stop offset="1" stop-color="#020914"/></linearGradient>
+ <linearGradient id="cyan" x2="1" y2="1"><stop stop-color="#61f0ff"/><stop offset=".5" stop-color="#19b9f2"/><stop offset="1" stop-color="#1262bc"/></linearGradient>
+ <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#123b5d"/><stop offset="1" stop-color="#07172b"/></linearGradient>
+ <linearGradient id="violet" x2="1" y2="1"><stop stop-color="#687eff"/><stop offset="1" stop-color="#293c91"/></linearGradient>
+ <linearGradient id="teal" x2="1" y2="1"><stop stop-color="#24d7c4"/><stop offset="1" stop-color="#087e9c"/></linearGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#43a8d5" stroke-opacity=".14" stroke-width="1"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#55e5ff" stroke-width="1.3"/></marker>
 </defs>
-<rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
-<g opacity=".28" fill="none" stroke="#1a80b7"><path d="M0 170H1600M0 730H1600M760 0V900"/></g>
+<rect width="1800" height="1000" fill="url(#bg)"/><rect width="1800" height="1000" fill="url(#grid)"/>
+<g opacity=".24" stroke="#1b91c4" fill="none"><path d="M0 180H1800M0 830H1800M700 0V1000"/></g>
+<!-- Editorial title column -->
 <g font-family="Arial,Helvetica,sans-serif">
- <text x="76" y="220" font-size="112" font-weight="900" letter-spacing="2" fill="url(#cyan)" filter="url(#glow)">NETWORK</text>
- <text x="78" y="325" font-size="82" font-weight="900" fill="#e9f5ff">ARCHITECTURE</text>
- <text x="78" y="414" font-size="82" font-weight="900" fill="#e9f5ff">PLAYBOOK</text>
- <text x="82" y="490" font-size="29" fill="#d6eaff">From Network Fundamentals to</text><text x="82" y="532" font-size="29" font-weight="700" fill="#55ddff">Enterprise &amp;amp; Hybrid Network Design</text>
- <path d="M82 580H650" stroke="#31cfff" stroke-width="3"/>
- <text x="82" y="630" font-size="24" font-weight="700" letter-spacing="2" fill="#38cfff">END-TO-END REFERENCE ARCHITECTURE</text>
- <rect x="80" y="700" width="570" height="82" rx="41" fill="#082b48" stroke="#37dfff" stroke-width="3" filter="url(#glow)"/>
- <text x="365" y="752" font-size="27" font-weight="700" letter-spacing="3" text-anchor="middle" fill="#dffaff">DESIGN  •  CONNECT  •  SECURE  •  OPERATE</text>
- <text x="82" y="840" font-size="18" letter-spacing="4" fill="#7eb8d8">OPEN-SOURCE NETWORK ENGINEERING KNOWLEDGE</text>
+ <text x="65" y="190" font-size="104" font-weight="900" letter-spacing="1" fill="url(#cyan)" filter="url(#glow)">NETWORK</text>
+ <text x="70" y="286" font-size="73" font-weight="900" fill="#eaf6ff">ARCHITECTURE</text>
+ <text x="70" y="370" font-size="82" font-weight="900" fill="#eaf6ff">PLAYBOOK</text>
+ <text x="74" y="455" font-size="29" fill="#d8efff">From Network Fundamentals to</text>
+ <text x="74" y="496" font-size="29" font-weight="700" fill="#58e2ff">Enterprise &amp; Hybrid Network Design</text>
+ <path d="M74 535H620" stroke="#39d9ff" stroke-width="3"/>
+ <text x="74" y="584" font-size="22" font-weight="700" letter-spacing="1.5" fill="#56dfff">LEARN • DESIGN • CONNECT • SECURE</text>
+ <text x="74" y="621" font-size="22" font-weight="700" letter-spacing="1.5" fill="#56dfff">OPERATE • TROUBLESHOOT</text>
+ <rect x="72" y="690" width="550" height="104" rx="18" fill="#082b48" stroke="#39dfff" stroke-width="2.5" filter="url(#glow)"/>
+ <text x="98" y="729" font-size="18" font-weight="700" fill="#75eaff" letter-spacing="2">100 TOPICS • 10 DOMAINS</text>
+ <text x="98" y="764" font-size="19" fill="#e5f8ff">Vendor-neutral engineering knowledge</text>
+ <text x="74" y="865" font-size="18" letter-spacing="3" fill="#8abbd7">CAMPUS • BRANCH • WAN • DATA CENTRE • CLOUD</text>
+ <text x="74" y="906" font-size="17" letter-spacing="2" fill="#5f9dbf">OPEN-SOURCE NETWORK ENGINEERING REFERENCE</text>
 </g>
-<g transform="translate(720 52)" font-family="Arial,Helvetica,sans-serif">
- <rect x="0" y="0" width="820" height="796" rx="26" fill="url(#panel)" stroke="#39dfff" stroke-width="3"/>
- <text x="28" y="42" font-size="20" font-weight="700" fill="#a9f2ff" letter-spacing="1">ENTERPRISE NETWORK • REFERENCE DESIGN</text>
- <text x="790" y="42" font-size="11" text-anchor="end" fill="#6fa9ca">CAMPUS • WAN • DC • CLOUD • ZERO TRUST</text>
- <rect x="24" y="62" width="772" height="104" rx="16" fill="#0b2d4b" stroke="#2bbfe9" stroke-width="2"/>
- <text x="42" y="89" font-size="16" fill="#63e3ff" font-weight="700">GLOBAL EDGE &amp;amp; ACCESS</text>
- <rect x="40" y="104" width="168" height="45" rx="9" fill="#103e61" stroke="#55dfff"/><text x="124" y="132" text-anchor="middle" font-size="15" fill="#effcff">Users &amp; Devices</text><rect x="228" y="104" width="168" height="45" rx="9" fill="#103e61" stroke="#55dfff"/><text x="312" y="132" text-anchor="middle" font-size="15" fill="#effcff">DNS / CDN</text><rect x="416" y="104" width="168" height="45" rx="9" fill="#103e61" stroke="#55dfff"/><text x="500" y="132" text-anchor="middle" font-size="15" fill="#effcff">DDoS • WAF</text><rect x="604" y="104" width="168" height="45" rx="9" fill="#103e61" stroke="#55dfff"/><text x="688" y="132" text-anchor="middle" font-size="15" fill="#effcff">ZTNA / VPN</text>
- <path d="M410 166V196M410 196H212V216M410 196H610V216" fill="none" stroke="#50ddff" stroke-width="3"/>
- <rect x="24" y="216" width="370" height="330" rx="16" fill="#092641" stroke="#2ec9ef" stroke-width="2"/>
- <rect x="426" y="216" width="370" height="330" rx="16" fill="#101f45" stroke="#7c8dff" stroke-width="2"/>
- <text x="44" y="247" font-size="20" font-weight="700" fill="#6fe6ff">CAMPUS &amp;amp; BRANCH</text>
- <text x="446" y="247" font-size="20" font-weight="700" fill="#aab9ff">DATA CENTRE &amp;amp; CLOUD</text>
- <g fill="#123d5e" stroke="#4bdcff">
-  <rect x="48" y="270" width="322" height="62" rx="10"/><rect x="48" y="350" width="152" height="68" rx="10"/><rect x="218" y="350" width="152" height="68" rx="10"/><rect x="48" y="438" width="322" height="82" rx="10"/>
+<!-- Main architecture board -->
+<g transform="translate(665 35)" font-family="Arial,Helvetica,sans-serif">
+ <rect x="0" y="0" width="1095" height="930" rx="24" fill="url(#panel)" stroke="#42dfff" stroke-width="3"/>
+ <text x="28" y="39" font-size="21" font-weight="700" fill="#b8f5ff" letter-spacing="1">END-TO-END ENTERPRISE NETWORK REFERENCE ARCHITECTURE</text>
+ <text x="1065" y="39" font-size="12" text-anchor="end" fill="#8abbd7">LOGICAL + PHYSICAL • ON-PREM • HYBRID • MULTI-CLOUD</text>
+ <!-- fundamentals strip -->
+ <rect x="22" y="57" width="1051" height="100" rx="13" fill="#092c49" stroke="#2abce9" stroke-width="1.5"/>
+ <text x="40" y="82" font-size="16" font-weight="700" fill="#66e7ff">NETWORK FUNDAMENTALS • HOW DATA MOVES</text>
+ <g fill="#123e60" stroke="#3abfef">
+  <rect x="38" y="94" width="188" height="47" rx="7"/><rect x="238" y="94" width="188" height="47" rx="7"/><rect x="438" y="94" width="188" height="47" rx="7"/><rect x="638" y="94" width="188" height="47" rx="7"/><rect x="838" y="94" width="218" height="47" rx="7"/>
  </g>
- <g fill="#e8faff" text-anchor="middle"><text x="209" y="296" font-size="17">Core / Distribution</text><text x="209" y="317" font-size="12" fill="#9eddf3">Resilient L3 • ECMP • VRF</text><text x="124" y="378" font-size="15">Access Switching</text><text x="124" y="399" font-size="12" fill="#9eddf3">VLAN • PoE • NAC</text><text x="294" y="378" font-size="15">Wireless LAN</text><text x="294" y="399" font-size="12" fill="#9eddf3">Wi-Fi • Roaming</text><text x="209" y="467" font-size="16">Segmentation &amp;amp; Policy</text><text x="209" y="492" font-size="12" fill="#9eddf3">Identity • ACL • Micro-segmentation</text></g>
- <g fill="#202d61" stroke="#9baaff"><rect x="450" y="270" width="322" height="62" rx="10"/><rect x="450" y="350" width="152" height="68" rx="10"/><rect x="620" y="350" width="152" height="68" rx="10"/><rect x="450" y="438" width="322" height="82" rx="10"/></g>
- <g fill="#f0f1ff" text-anchor="middle"><text x="611" y="296" font-size="17">WAN / SD-WAN Fabric</text><text x="611" y="317" font-size="12" fill="#c0c9ff">BGP • IPsec • QoS</text><text x="526" y="378" font-size="15">Compute</text><text x="526" y="399" font-size="12" fill="#c0c9ff">VM • K8s</text><text x="696" y="378" font-size="15">Cloud Network</text><text x="696" y="399" font-size="12" fill="#c0c9ff">VPC • VNet</text><text x="611" y="467" font-size="16">Data &amp;amp; Security Zones</text><text x="611" y="492" font-size="12" fill="#c0c9ff">Firewalls • Private links • East-west controls</text></g>
- <path d="M394 380H426M209 546V574H611V546" fill="none" stroke="#56e2ff" stroke-width="3" stroke-dasharray="8 6"/>
- <rect x="24" y="584" width="772" height="176" rx="16" fill="#071a30" stroke="#42d7ff" stroke-width="2"/>
- <text x="44" y="616" font-size="18" fill="#66e5ff" font-weight="700">SHARED NETWORK SERVICES &amp;amp; OPERATIONS</text>
- <rect x="40" y="640" width="136" height="82" rx="9" fill="#103552" stroke="#298dbb"/><text x="108" y="674" text-anchor="middle" font-size="12" fill="#e5f8ff">IPAM</text><text x="108" y="696" text-anchor="middle" font-size="10" fill="#8cc9e4">DHCP • DNS</text><rect x="190" y="640" width="136" height="82" rx="9" fill="#103552" stroke="#298dbb"/><text x="258" y="674" text-anchor="middle" font-size="12" fill="#e5f8ff">Routing</text><text x="258" y="696" text-anchor="middle" font-size="10" fill="#8cc9e4">BGP • OSPF</text><rect x="340" y="640" width="136" height="82" rx="9" fill="#103552" stroke="#298dbb"/><text x="408" y="674" text-anchor="middle" font-size="12" fill="#e5f8ff">Firewall</text><text x="408" y="696" text-anchor="middle" font-size="10" fill="#8cc9e4">SASE • NAC</text><rect x="490" y="640" width="136" height="82" rx="9" fill="#103552" stroke="#298dbb"/><text x="558" y="674" text-anchor="middle" font-size="12" fill="#e5f8ff">Telemetry</text><text x="558" y="696" text-anchor="middle" font-size="10" fill="#8cc9e4">NMS • SIEM</text><rect x="640" y="640" width="136" height="82" rx="9" fill="#103552" stroke="#298dbb"/><text x="708" y="674" text-anchor="middle" font-size="12" fill="#e5f8ff">Resilience</text><text x="708" y="696" text-anchor="middle" font-size="10" fill="#8cc9e4">DR • QoS</text>
-</g></svg>
+ <g fill="#effaff" text-anchor="middle"><text x="132" y="113" font-size="13" font-weight="700">OSI • TCP/IP</text><text x="132" y="130" font-size="10" fill="#a8dff2">7-layer / protocol suite</text><text x="332" y="113" font-size="13" font-weight="700">Ethernet • Wi-Fi</text><text x="332" y="130" font-size="10" fill="#a8dff2">LAN • 802.11 • channels</text><text x="532" y="113" font-size="13" font-weight="700">MAC • NIC</text><text x="532" y="130" font-size="10" fill="#a8dff2">Frames • interface identity</text><text x="732" y="113" font-size="13" font-weight="700">Encapsulation</text><text x="732" y="130" font-size="10" fill="#a8dff2">Data → segment → packet → frame</text><text x="947" y="113" font-size="13" font-weight="700">Performance</text><text x="947" y="130" font-size="10" fill="#a8dff2">Bandwidth • latency • jitter</text></g>
+ <!-- top ingress -->
+ <rect x="22" y="174" width="1051" height="116" rx="13" fill="#0b3453" stroke="#35c8f0" stroke-width="1.5"/>
+ <text x="40" y="198" font-size="16" font-weight="700" fill="#72eaff">ACCESS EDGE • USERS, BRANCHES AND ISP HANDOFF</text>
+ <g fill="#104466" stroke="#54dfff" stroke-width="1.2">
+  <rect x="38" y="211" width="145" height="60" rx="8"/><rect x="197" y="211" width="145" height="60" rx="8"/><rect x="356" y="211" width="145" height="60" rx="8"/><rect x="515" y="211" width="145" height="60" rx="8"/><rect x="674" y="211" width="177" height="60" rx="8"/><rect x="865" y="211" width="190" height="60" rx="8"/>
+ </g>
+ <g fill="#f0fbff" text-anchor="middle"><text x="110" y="235" font-size="14" font-weight="700">Clients</text><text x="110" y="253" font-size="11" fill="#b5e6f5">PC • phone • IoT</text><text x="269" y="235" font-size="14" font-weight="700">AP / Wi-Fi</text><text x="269" y="253" font-size="11" fill="#b5e6f5">SSID • roaming</text><text x="428" y="235" font-size="14" font-weight="700">Modem / ONT</text><text x="428" y="253" font-size="11" fill="#b5e6f5">Cable • DSL • fibre</text><text x="587" y="235" font-size="14" font-weight="700">Edge Router</text><text x="587" y="253" font-size="11" fill="#b5e6f5">Default route • BGP</text><text x="762" y="235" font-size="14" font-weight="700">Firewall / VPN</text><text x="762" y="253" font-size="11" fill="#b5e6f5">Zones • policy • IPsec</text><text x="960" y="235" font-size="14" font-weight="700">Load Balancer</text><text x="960" y="253" font-size="11" fill="#b5e6f5">Health checks • L4/L7</text></g>
+ <path d="M110 290V316H960V290M269 290V316M428 290V316M587 290V316M762 290V316" fill="none" stroke="#51dcff" stroke-width="2" opacity=".85"/>
+ <path d="M550 316V338" stroke="#51dcff" stroke-width="3" marker-end="url(#arrow)"/>
+ <!-- enterprise network zones -->
+ <rect x="22" y="340" width="505" height="282" rx="14" fill="#082c47" stroke="#34c9f0" stroke-width="2"/>
+ <rect x="544" y="340" width="529" height="282" rx="14" fill="#111e43" stroke="#8796ff" stroke-width="2"/>
+ <text x="42" y="369" font-size="20" font-weight="700" fill="#69e5ff">CAMPUS LAN • BRANCH • WAN</text>
+ <text x="564" y="369" font-size="20" font-weight="700" fill="#b5c1ff">DATA CENTRE • CLOUD • HYBRID</text>
+ <!-- campus path -->
+ <g fill="#104264" stroke="#42d7ff" stroke-width="1.3">
+  <rect x="42" y="390" width="465" height="56" rx="8"/><rect x="42" y="460" width="220" height="65" rx="8"/><rect x="286" y="460" width="221" height="65" rx="8"/><rect x="42" y="539" width="465" height="62" rx="8"/>
+ </g>
+ <g fill="#effaff" text-anchor="middle"><text x="274" y="414" font-size="15" font-weight="700">Core / Distribution Switches</text><text x="274" y="433" font-size="11" fill="#b4e5f5">L3 SVIs • VLANs • STP • ECMP</text><text x="152" y="486" font-size="14" font-weight="700">Access Switches</text><text x="152" y="505" font-size="11" fill="#b4e5f5">MAC learning • PoE • trunks</text><text x="396" y="486" font-size="14" font-weight="700">Wireless LAN</text><text x="396" y="505" font-size="11" fill="#b4e5f5">WLC • AP • 802.1X</text><text x="274" y="564" font-size="15" font-weight="700">Branch / WAN / SD-WAN</text><text x="274" y="584" font-size="11" fill="#b4e5f5">MPLS • Internet • overlay • QoS</text></g>
+ <path d="M152 460V446M396 460V446M274 525V539" stroke="#55e5ff" stroke-width="2.2" fill="none" marker-end="url(#arrow)"/>
+ <!-- DC / cloud path -->
+ <g fill="#202d60" stroke="#9aaaff" stroke-width="1.3"><rect x="564" y="390" width="489" height="56" rx="8"/><rect x="564" y="460" width="232" height="65" rx="8"/><rect x="813" y="460" width="240" height="65" rx="8"/><rect x="564" y="539" width="489" height="62" rx="8"/></g>
+ <g fill="#f0f2ff" text-anchor="middle"><text x="808" y="414" font-size="15" font-weight="700">WAN Edge • Redundant Routing</text><text x="808" y="433" font-size="11" fill="#c2cbff">BGP • OSPF • VRF • IPsec • failover</text><text x="680" y="486" font-size="14" font-weight="700">Data Centre Fabric</text><text x="680" y="505" font-size="11" fill="#c2cbff">Spine-leaf • VLAN / VXLAN</text><text x="933" y="486" font-size="14" font-weight="700">Cloud Networks</text><text x="933" y="505" font-size="11" fill="#c2cbff">VPC • VNet • VPC peering</text><text x="808" y="564" font-size="15" font-weight="700">Compute • Application • Data Zones</text><text x="808" y="584" font-size="11" fill="#c2cbff">Private subnets • gateways • private endpoints</text></g>
+ <path d="M680 460V446M933 460V446M808 525V539" stroke="#a4b2ff" stroke-width="2.2" fill="none" marker-end="url(#arrow)"/>
+ <!-- shared services -->
+ <rect x="22" y="640" width="1051" height="143" rx="14" fill="#071a30" stroke="#42d7ff" stroke-width="1.6"/>
+ <text x="42" y="669" font-size="17" font-weight="700" fill="#67e6ff">SHARED SERVICES • SECURITY • OBSERVABILITY • RESILIENCE</text>
+ <g fill="#103753" stroke="#319ecb">
+  <rect x="38" y="686" width="164" height="78" rx="8"/><rect x="214" y="686" width="164" height="78" rx="8"/><rect x="390" y="686" width="164" height="78" rx="8"/><rect x="566" y="686" width="164" height="78" rx="8"/><rect x="742" y="686" width="164" height="78" rx="8"/><rect x="918" y="686" width="137" height="78" rx="8"/>
+ </g>
+ <g fill="#e8faff" text-anchor="middle"><text x="120" y="711" font-size="13" font-weight="700">IPAM • DNS • DHCP</text><text x="120" y="734" font-size="11" fill="#a8dff2">Address • name • lease</text><text x="296" y="711" font-size="13" font-weight="700">Routing • Switching</text><text x="296" y="734" font-size="11" fill="#a8dff2">BGP • OSPF • STP</text><text x="472" y="711" font-size="13" font-weight="700">Security Controls</text><text x="472" y="734" font-size="11" fill="#a8dff2">NAC • AAA • ACL • SASE</text><text x="648" y="711" font-size="13" font-weight="700">Monitoring</text><text x="648" y="734" font-size="11" fill="#a8dff2">NMS • SNMP • flow • logs</text><text x="824" y="711" font-size="13" font-weight="700">Troubleshooting</text><text x="824" y="734" font-size="11" fill="#a8dff2">Packet • path • latency</text><text x="986" y="711" font-size="13" font-weight="700">Resilience</text><text x="986" y="734" font-size="11" fill="#a8dff2">HA • DR • QoS</text></g>
+ <!-- physical foundation -->
+ <rect x="22" y="801" width="1051" height="105" rx="14" fill="#0b263e" stroke="#2a9cc7" stroke-width="1.5"/>
+ <text x="42" y="828" font-size="16" font-weight="700" fill="#70e7ff">PHYSICAL INFRASTRUCTURE • LAYER 1 FOUNDATIONS</text>
+ <g fill="#173b56" stroke="#3b9fc8"><rect x="40" y="843" width="190" height="48" rx="7"/><rect x="246" y="843" width="190" height="48" rx="7"/><rect x="452" y="843" width="190" height="48" rx="7"/><rect x="658" y="843" width="190" height="48" rx="7"/><rect x="864" y="843" width="190" height="48" rx="7"/></g>
+ <g fill="#eafaff" text-anchor="middle"><text x="135" y="863" font-size="12" font-weight="700">Copper / Fibre Cabling</text><text x="135" y="880" font-size="10" fill="#b0d9eb">Cat6 • SMF • MMF</text><text x="341" y="863" font-size="12" font-weight="700">Optical Transceivers</text><text x="341" y="880" font-size="10" fill="#b0d9eb">SFP • SFP+ • QSFP</text><text x="547" y="863" font-size="12" font-weight="700">Racks &amp; Patch Panels</text><text x="547" y="880" font-size="10" fill="#b0d9eb">Layout • airflow • labelling</text><text x="753" y="863" font-size="12" font-weight="700">Power &amp; Cooling</text><text x="753" y="880" font-size="10" fill="#b0d9eb">UPS • PDU • redundancy</text><text x="959" y="863" font-size="12" font-weight="700">Legacy / Edge Devices</text><text x="959" y="880" font-size="10" fill="#b0d9eb">Hubs • repeaters • bridges</text></g>
+</g>
+</svg>
