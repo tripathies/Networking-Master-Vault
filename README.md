@@ -1,10 +1,10 @@
 # Network Architecture Playbook
 
 <p align="center">
-  <img src="assets/network-architecture-playbook-cover.svg" alt="Network Architecture Playbook — enterprise campus, WAN, data centre, cloud and zero-trust reference design" width="100%" />
+  <img src="assets/network-architecture-playbook-cover.svg" alt="Networking Zero to Hero — 10-stage learning roadmap from fundamentals to enterprise and cloud networking" width="100%" />
 </p>
 
-> **Vendor-neutral Network Solution Architect learning portal** — From Network Fundamentals to Enterprise & Hybrid Network Design. Learn, design, secure and operate modern networks through 100 linked guides, reference architecture and practical labs.
+> **Vendor-neutral Networking Zero to Hero learning series** — Teach and learn networking step by step, from first principles and command-line tools through devices, IP addressing, switching, routing, protocols, security, wireless, troubleshooting, AWS, Azure, Google Cloud, hybrid connectivity, containers, automation and enterprise architecture. Explore 100 linked guides, reference designs and practical labs.
 
 [![Learning tracker](https://img.shields.io/badge/Learning%20tracker-100%20topics-0EA5E9?style=for-the-badge)](#networking-learning-tracker)
 [![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-107C10?style=for-the-badge)](NETWORK-REFERENCE-ARCHITECTURE.md)
