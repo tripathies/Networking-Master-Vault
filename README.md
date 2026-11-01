@@ -1,4 +1,4 @@
-# Networking Master Vault
+# Network Architecture Playbook
 
 > **Vendor-neutral Networking Solution Architect learning portal** — build networking fundamentals, design enterprise and hybrid networks, complete practical labs, and track every topic from fundamentals to architecture.
 
