@@ -1,6 +1,10 @@
 # Network Architecture Playbook
 
-> **Vendor-neutral Networking Solution Architect learning portal** — build networking fundamentals, design enterprise and hybrid networks, complete practical labs, and track every topic from fundamentals to architecture.
+<p align="center">
+  <img src="network-architecture-playbook-cover.svg" alt="Network Architecture Playbook — enterprise campus, WAN, data centre, cloud and zero-trust reference design" width="100%" />
+</p>
+
+> **Vendor-neutral Network Solution Architect learning portal** — From Network Fundamentals to Enterprise & Hybrid Network Design. Learn, design, secure and operate modern networks through 100 linked guides, reference architecture and practical labs.
 
 [![Learning tracker](https://img.shields.io/badge/Learning%20tracker-100%20topics-0EA5E9?style=for-the-badge)](#networking-learning-tracker)
 [![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-107C10?style=for-the-badge)](NETWORK-REFERENCE-ARCHITECTURE.md)
