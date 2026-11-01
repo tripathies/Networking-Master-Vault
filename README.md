@@ -1,7 +1,7 @@
 # Network Architecture Playbook
 
 <p align="center">
-  <img src="network-architecture-playbook-cover.svg" alt="Network Architecture Playbook — enterprise campus, WAN, data centre, cloud and zero-trust reference design" width="100%" />
+  <img src="assets/network-architecture-playbook-cover.svg" alt="Network Architecture Playbook — enterprise campus, WAN, data centre, cloud and zero-trust reference design" width="100%" />
 </p>
 
 > **Vendor-neutral Network Solution Architect learning portal** — From Network Fundamentals to Enterprise & Hybrid Network Design. Learn, design, secure and operate modern networks through 100 linked guides, reference architecture and practical labs.
